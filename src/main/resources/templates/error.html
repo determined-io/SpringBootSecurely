@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+
+<div th:replace="header :: head"></div>
+
+<body>
+
+<div class="container-fluid">
+    <div>
+        <h2><span th:text="|Error ${status}: ${message}|"/></h2>
+    </div>
+</div>
+
+</body>
+
+</html>

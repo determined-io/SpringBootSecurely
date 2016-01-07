@@ -1,0 +1,18 @@
+body {
+    padding-top: 70px;  /* push the body down below the fixed-top nav bar */
+    background-color: #eee;
+}
+
+nav.navbar.navbar-inverse.navbar-fixed-top {
+    background-color: rgb(115, 115, 115);
+    background-image: linear-gradient(rgb(155, 155, 155), rgb(135, 135, 135) 60%, rgb(105, 105, 105));
+    opacity: 0.8;
+}
+
+a.navbar-brand {
+    font-size:24px;
+}
+
+a.navbar-item {
+    font-size:16px;
+}
